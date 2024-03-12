@@ -7,6 +7,27 @@ welcome.blade.php
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+    /* Center the blog posts, postForm, and postsList */
+    .container {
+        padding-top: 50px;
+    }
+
+    #postsList {
+        text-align: left;
+    }
+
+    #postForm {
+        margin-bottom: 20px;
+    }
+
+    /* Make the page more responsive */
+    @media (max-width: 767px) {
+        .container {
+            padding-top: 20px;
+        }
+    }
+    </style>
 </head>
 <body>
     <div class="container">
